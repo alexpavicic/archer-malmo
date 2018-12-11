@@ -1,0 +1,115 @@
+body{
+	background-color: orange;
+}
+h1{
+	color:#606060;
+}
+.title{
+	text-align: center;
+	color: black;
+	font-size: 70px;
+
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+body{
+	text-align: center;
+
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.textbox{
+	width: 500px;
+	padding:25px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 5px;
+  color: blue;
+  
+}
+.textbox1{
+  width: 500px;
+  padding:25px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 5px;
+  color: blue;
+  text-align: left;
+}
+.textbox2{
+  width: 500px;
+  padding:25px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 5px;
+  color: blue;
+  text-align: center;
+}
+
+.black{
+  color: black;
+}
+
+
+  .food
+{
+        opacity:0.75;
+}
+.food:hover
+{
+        opacity:1;
+}
+
+
+.food{
+  float: right;
+}
+
+.fun:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.final{
+  float: right;
+  color: green;
+  font-size: 50px;
+}
